@@ -7,3 +7,9 @@ time_step = env.reset()
 print("환경 실행 성공")
 print(time_step.observation)
 
+==========================================
+
+(.venv) c:\rokey\py_work>
+(.venv) c:\rokey\py_work> c: && cd c:\rokey\py_work && cmd /C "c:\rokey\py_work\.venv\Scripts\python.exe c:\Users\sh081\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy\launcher 57570 -- c:\rokey\py_work\ch01\test.py "
+환경 실행 성공
+OrderedDict({'position': array([ 5.53554753e-03, -9.99999783e-01,  6.59106328e-04]), 'velocity': array([-0.00502729, -0.0047479 ])})
