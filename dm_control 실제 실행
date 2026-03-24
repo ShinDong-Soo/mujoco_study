@@ -1,1 +1,9 @@
 
+from dm_control import suite
+
+env = suite.load("cartpole", "swingup")
+time_step = env.reset()
+
+print("환경 실행 성공")
+print(time_step.observation)
+
